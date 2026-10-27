@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.github.lalyos:jfiglet:0.0.9'
+}
+
+application {
+    mainClass = 'Main'
+}
